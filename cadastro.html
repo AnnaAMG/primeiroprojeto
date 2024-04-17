@@ -2,8 +2,53 @@
 <html>
 <head>
 <meta charset = 'utf-8' />
+<title> Cadastro - Seja membro do Adventure Land </title>
+<link rel="icon" href=' img/disney.jpg' type='image/x-icon'> <!-- colocar imagem na aba de pesquisa -->
 </head>
+
+<body style= "background-color:#263E5D;">   <!-- colocar cor de fundo -->
+</body>
+
 <body>
+<a href="index.html" target =""> <h4 style="color:white"> - Voltar para pagina inicial - </h4>  </a> <!>
+
+<center>
+
+<h1 style="color:white"> - Cadastro - </h1>
+<br> </br>
+
+<form action="#" method="GET">
+
+    <!-- colocando conteúdo no formulario -->
+	<!-- nome -->
+    <label for="nome"> <h3 style="color:white"> Nome: </h3> </label> 
+    <input type="text" id="nome" name="nome" required minlength="3" maxlength="50" placeholder="Digite seu nome"><br>
+	
+	<!-- e-mail -->
+	<label for="e-mail"> <h3 style="color:white"> E-mail: </h3> </label>
+	<input type="text" id="e-mail" name="e-mail" required placeholder="Digite o seu e-mail"> <br>
+	
+	<!-- senha -->
+	<label for="senha"> <h3 style="color:white"> Senha: </h3> </label>
+	<input type="password" id="senha" name="senha" required minlength="8" placeholder="Digite sua senha"><br>
+	
+	<!-- confirmar senha -->
+	<label for="confirmar_senha"> <h3 style="color:white"> Confirmar senha: </h3>
+	<input type="password" id="confirmar_senha" name="confirmar_senha" required minlength="8" placeholder="Digite a senha novamente"><br>
+	
+	<!-- Data de nascimento -->
+	<label for="data_de_nascimento"> <h3 style="color:white"> Data de nascimento: </h3>
+	<input type="date" id="data_de_nascimento" name="data_de_nascimento" required placeholder="Digite sua data de nascimento"> <br>
+	
+	<!-- Gênero (opção de seleção) -->
+	<label for="genero"> <h3 style="color:white"> Gênero: </h3> </label><br>
+    <input type="radio" id="genero_masculino" name="genero" value="masculino" required>
+    <label for="genero_masculino"> <h3 style="color:white"> Masculino </h3> </label><br>
+    <input type="radio" id="genero_feminino" name="genero" value="feminino" required>
+    <label for="genero_feminino"> <h3 style="color:white"> Feminino </h3> </label><br>
+    <input type="radio" id="genero_outro" name="genero" value="outro" required>
+    <label for="genero_outro"> <h3 style="color:white"> Outros </h3> </label><br>
+	
 
 </body>
 </html>

@@ -65,9 +65,10 @@ h5{
     /* Estilos para dispositivos móveis pequenos (até 576px de largura) */
 @media only screen and (max-width: 576px) {
  
-    body{
-        margin:0;
-       }
+    img {
+        max-width: 100%;
+        height: auto;
+      }
        .navigation {
          height: 70px;
          background: #192A42;
@@ -236,8 +237,10 @@ h5{
   @media only screen and (min-width: 577px) and (max-width: 768px) {
     
 
-    .xx{
-        margin:0;
+    img {
+        max-width: 100%;
+        height: auto;
+      }
     
        }
     .navigation {
@@ -401,14 +404,15 @@ h5{
         margin: 0 auto;
         padding: 10px;
       }
-  }
+  
   
   /* Estilos para tablets e dispositivos de médio porte (769px - 1024px de largura) */
   @media only screen and (min-width: 769px) and (max-width: 1024px) {
 
-    bod{
-        margin:0;
-       }
+    img {
+        max-width: 100%;
+        height: auto;
+      }
     .navigation {
         height: 70px;
         background: #192A42;

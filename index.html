@@ -63,16 +63,18 @@
 
 
 <br> </br>
-<p> Criado em 2000 o Parque de diversões Adventure Land, mantém a tradição de trazer e de desenvolver memórias<br>
+<p id="p"> Criado em 2000 o Parque de diversões Adventure Land, mantém a tradição de trazer e de desenvolver memórias<br>
          incriveis para toda a sua família em um só lugar, venha conhecer nosso parque de diversões tematico e muito divertido!! <br>
 		
 		Briquedos para cada gosto, tamanho, preço e idade. Confira mais informações abaixo.
+
+  
   </p>
 <br> </br>
 
 
 
-<a href="maisinformacoes.html" target = "_blank"> <h4> - Mais informações - </h4> </a> <!>
+<a href="maisinformacoes.html" target = "_blank"> <h4> - Mais informações - </h4> </a> 
 <br> </br>
 <br> </br>
 
@@ -85,7 +87,7 @@
     <div class="col-sm">
       <br>
       <br>
-      <h2> EVENTOS PARA O MÊS DE ABRIL </h2> <br>
+      <h2 id="ce"> EVENTOS PARA O MÊS DE ABRIL </h2> <br>
       <p> Dia 12/04 ás 14:00 horas - Circo especial;</p>
       <p> Dia 18/04 ás 17:00 horas - Circo especial parte 2;</p>
       <p> Dia 21/04 ás 15:00 horas - Evento de carros;</p> 
@@ -101,13 +103,13 @@
  <br> </br> 
  <br> </br>
 
-<div class="f">
-<h6>.</h6>
-<h4> Local </h4>
-<h5> MG - Belo Horizonte <br> 
+<div class="f" id="f">
+<h6 id="f">.</h6>
+<h4 id="f"> Local </h4>
+<h5 > MG - Belo Horizonte <br> 
 Rua: Dom Pedro, nº 567 <br> 
 Bairro: Maria Antonieta </h5>
-<h6>.</h6>
+<h6 id="f">.</h6>
 </div>
 <br> </br>
 <br> </br>
@@ -132,31 +134,11 @@ Bairro: Maria Antonieta </h5>
 
 </table>
 
-<script>
-  (function($) { // Begin jQuery
-    $(function() { // DOM ready
-      // If a link has a dropdown, add sub menu toggle.
-      $('nav ul li a:not(:only-child)').click(function(e) {
-        $(this).siblings('.nav-dropdown').toggle();
-        // Close one dropdown when selecting another
-        $('.nav-dropdown').not($(this).siblings()).hide();
-        e.stopPropagation();
-      });
-      // Clicking away from dropdown will remove the dropdown class
-      $('html').click(function() {
-        $('.nav-dropdown').hide();
-      });
-      // Toggle open and close nav styles on click
-      $('#nav-toggle').click(function() {
-        $('nav ul').slideToggle();
-      });
-      // Hamburger to X toggle
-      $('#nav-toggle').on('click', function() {
-        this.classList.toggle('active');
-      });
-    }); // end DOM ready
-  })(jQuery);
-  </script>
+<br>
+<br>
+<script src="js/script.js"> </script>
+
+
 
 </body>
 </html>
